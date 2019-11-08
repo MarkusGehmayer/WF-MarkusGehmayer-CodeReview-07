@@ -1,0 +1,44 @@
+#wannaKnow {
+	color: #darkgrey;
+	text-shadow: 0 0 2px black;
+	font-size: 0.9rem;
+	background: rgb(213,213,213, 0);
+	text-decoration: none;
+	border-radius: 25px 25px 25px 25px;
+	padding: 3px;
+	border: 1.5px solid darkorange;
+	display: inline-block;
+	transition: all 0.8s ease 0s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	
+}
+
+#wannaKnow:hover {
+	color: #ffffff;
+	background: rgb(213,213,213, 0.7);
+	border-color: lightgrey;
+	transition: all 2s ease 0s;
+	text-transform: uppercase;
+	border-radius: 5px 5px 15px 15px;
+}
+
+h1 {
+	font: 700 1.5em/1, sans-serif;
+    letter-spacing: 0;
+    text-shadow: 0 0 20px rgba(255,255,255,.5);
+    background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 160s linear infinite;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+     border-radius: 5px 5px 5px 5px;
+  }
+
+@-webkit-keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+

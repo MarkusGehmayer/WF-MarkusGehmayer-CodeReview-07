@@ -1,0 +1,35 @@
+nav {
+text-shadow: 0 0 2px black;
+background: rgb(1,79,104);
+background: linear-gradient(0deg, rgba(1,79,104,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.navbar-brand {
+	transform: rotate(10deg);
+}
+
+.nav-link {
+	margin:  1vh;
+	padding: 2vh;
+	color: #darkgrey;
+	text-shadow: 0 0 2px black;
+	font-size: 1rem;
+	background: rgb(213,213,213, 0);
+	text-decoration: none;
+	border-radius: 25px 25px 25px 25px;
+	padding: 3px;
+	border: 1.5px solid darkorange;
+	display: inline-block;
+	transition: all 0.8s ease 0s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	
+}
+
+.nav-link:hover {
+	color: #ffffff;
+	background: rgb(213,213,213, 0.7);
+	border-color: lightgrey;
+	transition: all 2s ease 0s;
+	text-transform: uppercase;
+	border-radius: 5px 5px 15px 15px;
+}

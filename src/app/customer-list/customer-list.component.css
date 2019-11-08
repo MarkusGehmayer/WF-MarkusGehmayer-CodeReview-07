@@ -1,0 +1,102 @@
+td {
+  font-size: 0.8rem;
+  margin: 1px;
+  padding: 1px;
+}
+
+th {
+  border: none;
+}
+
+.form-control {
+  background: rgb(213,213,213, 0.3);
+  border-radius: 25px 25px 25px 25px;
+  border: 2px solid darkorange;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-control:hover {
+  border-color: orange;
+  background: darkorange;
+  transition: all 2s ease 0s;
+  text-transform: uppercase;
+  border-radius: 5px 5px 15px 15px;
+}
+
+ng-container {
+  margin: 1px;
+  padding: 1px;
+  width: 250px; 
+  background-color: white;
+  border: 2px solid darkorange;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 0.8rem;
+}
+
+ng-container:hover {
+  border-color: orange;
+  background: rgb(213,213,213, 0.3);
+  transition: all 2s ease 0s;
+  text-transform: uppercase;
+  border-radius: 5px 5px 15px 15px;
+}
+
+#close_search {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #ffffff;
+  margin: 1px;
+  font-weight: bold;
+  background: grey;
+  border-color: lightgrey;
+  transition: all 0.8s ease 0s;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#close_search:hover {
+  font-size: 0.8rem;
+  text-align: center;
+  color: grey;
+  text-decoration: none;
+  background: darkorange;
+  border-color: lightgrey;
+  border-radius: 100% 100% 100% 100%;
+  margin: 1px;
+  border: 2px solid lightgrey;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+button {
+  font-size: 0.8rem;
+  text-align: center;
+  color: #ffffff;
+  margin: 1px;
+  background: grey;
+  border: 2px solid lightgrey;
+  transition: all 0.8s ease 0s;
+  border-radius: 100% 100% 100% 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  font-size: 0.8rem;
+  text-align: center;
+  color: grey;
+  text-decoration: none;
+  background: darkorange;
+  border-color: lightgrey;
+  border-radius: 100% 100% 100% 100%;
+  border: 2px solid lightgrey;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+

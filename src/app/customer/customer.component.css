@@ -1,0 +1,45 @@
+* {
+   font-size: 0.8rem;
+}
+
+.btn-primary {
+  color: grey;
+  margin: 1px;
+  padding: 1px;
+  width: 150px; 
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+input {
+  margin: 1px;
+  padding: 1px;
+  width: 250px; 
+  background-color: white;
+  border: 2px solid darkorange;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input:hover {
+  border-color: orange;
+  background: rgb(213,213,213, 0.3);
+  transition: all 2s ease 0s;
+  text-transform: uppercase;
+  border-radius: 5px 5px 15px 15px;
+}
+
+#formular {
+  background: rgb(213,213,213, 0.3);
+  border-radius: 25px 25px 25px 25px;
+  border: 1.5px solid grey;
+  margin: 1vh;
+  padding:  3vh;
+}
+
+h4 {
+  font-size: 1.2rem;
+}

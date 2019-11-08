@@ -1,0 +1,45 @@
+.container {
+	background-color: #F5F5F5;
+	border-radius: 25px 25px 25px 25px;
+	border: 1.5px solid grey;
+	margin: 1vh;
+	padding:  3vh;
+}
+
+a {
+	margin:  1vh;
+	padding: 2vh;
+	color: #darkgrey;
+	text-shadow: 0 0 1px black;
+	font-size: 1rem;
+	background: rgb(213,213,213, 0);
+	text-decoration: none;
+	border-radius: 25px 25px 25px 25px;
+	padding: 3px;
+	border: 1.5px solid darkorange;
+	display: inline-block;
+	transition: all 0.8s ease 0s;
+	
+}
+
+a:hover {
+	color: darkorange;
+	background: rgb(213,213,213, 0);
+	border-color: darkorange;
+	transition: all 1s ease 0s;
+	text-transform: uppercase;
+	border-radius: 5px 5px 15px 15px;
+}
+
+.card {
+	border-radius: 25px 25px 25px 25px;
+	border: 2px solid darkorange;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+img {
+	width: 50%;
+}
+

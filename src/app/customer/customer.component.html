@@ -1,0 +1,42 @@
+<div class="container">
+  <h4>Send us your insider tips</h4>
+  <div class="row">
+    <div class="col-md-5">
+      <form id="formular" [formGroup]="this.customerService.form" (ngSubmit)="onSubmit()">
+        <input type="hidden" formControlName="$key">
+        <div class="form-group" class="question">
+          <label>City</label>
+          <input formControlName="firstName" class="form-control" type="text" required [ngClass]="{'is-invalid':submitted && formControls.firstName.errors}">
+          <div class="invalid-feedback" *ngIf="submitted && formControls.firstName.errors">This field is required</div>
+        </div>
+        <div class="form-group" class="question">
+          <label>Restaurant</label>
+          <input formControlName="lastName" class="form-control" [ngClass]="{'is-invalid':submitted && formControls.lastName.errors}">
+          <div class="invalid-feedback" *ngIf="submitted && formControls.lastName.errors">This field is required</div>
+        </div>
+        <div class="form-group" class="question">
+          <label>Email</label>
+          <input formControlName="email" class="form-control" [ngClass]="{'is-invalid':submitted && formControls.email.errors}">
+          <div class="invalid-feedback" *ngIf="submitted && formControls.email.errors">invalid email address ..</div>
+        </div>
+        <div class="form-group" class="question">
+          <label>Mobile</label>
+          <input formControlName="mobile" class="form-control" [ngClass]="{'is-invalid':submitted && formControls.mobile.errors}">
+          <div class="invalid-feedback" *ngIf="submitted && formControls.mobile.errors">
+            <label *ngIf="formControls.mobile.errors.required">This field is required</label>
+            <label *ngIf="formControls.mobile.errors.minlength">at least 8 numbers</label>
+          </div>
+        </div>
+        <br>
+        <div class="form-group">
+          <input type="submit" class="btn btn-primary" value="Add Info">
+        </div>
+      </form>
+      <div class="alert alert-info" *ngIf="showSuccessMessage">
+        submitted successfully.
+      </div>
+    </div>
+    <div class="col-md-7">
+      <app-customer-list></app-customer-list>
+    </div>
+  </div>

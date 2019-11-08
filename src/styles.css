@@ -1,0 +1,35 @@
+html {
+	cursor: url(./assets/img/cur268.cur), auto !important;	
+}
+
+
+.jumbotron {
+	background: url('./assets/img/June-2010-summer-article.jpg') repeat center center;
+	background-size: 100%;
+	color: white;
+	text-shadow: 0 0 2px black;
+}
+
+button {
+	color: #darkgrey;
+	text-shadow: 0 0 2px black;
+	font-size: 0.9rem;
+	background: rgb(213,213,213, 0);
+	text-decoration: none;
+	border-radius: 25px 25px 25px 25px;
+	padding: 3px;
+	border: 1.5px solid darkorange;
+	display: inline-block;
+	transition: all 0.8s ease 0s;
+	
+}
+
+button:hover {
+	color: #ffffff;
+	background: rgb(213,213,213, 0.7);
+	border-color: lightgrey;
+	transition: all 2s ease 0s;
+	text-transform: uppercase;
+	border-radius: 5px 5px 15px 15px;
+}
+
